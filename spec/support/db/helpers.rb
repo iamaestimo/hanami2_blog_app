@@ -36,7 +36,7 @@ module Test
             when :main
               Main::Entities
             else
-              AppPrototype::Entities
+              Hanami2BlogApp::Entities
             end
           end
       end

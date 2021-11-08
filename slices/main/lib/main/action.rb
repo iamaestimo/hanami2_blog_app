@@ -1,9 +1,9 @@
 # auto_register: false
 # frozen_string_literal: true
 
-require "app_prototype/action"
+require "hanami2_blog_app/action"
 
 module Main
-  class Action < AppPrototype::Action
+  class Action < Hanami2BlogApp::Action
   end
 end

@@ -1,7 +1,7 @@
 # auto_register: false
 # frozen_string_literal: true
 
-module AppPrototype
+module Hanami2BlogApp
   module Entities
   end
 end

@@ -4,7 +4,7 @@
 require "dry/monads"
 require "dry/matcher/result_matcher"
 
-module AppPrototype
+module Hanami2BlogApp
   class Operation
     include Dry::Monads[:result, :try]
 

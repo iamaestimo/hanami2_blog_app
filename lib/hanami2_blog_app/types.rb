@@ -3,7 +3,7 @@
 
 require "dry/types"
 
-module AppPrototype
+module Hanami2BlogApp
   module Types
     include Dry.Types
   end

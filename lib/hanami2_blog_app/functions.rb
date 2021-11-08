@@ -3,7 +3,7 @@
 
 require "dry/transformer"
 
-module AppPrototype
+module Hanami2BlogApp
   module Functions
     extend Dry::Transformer::Registry
 
