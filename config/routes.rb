@@ -7,6 +7,7 @@ module Hanami2BlogApp
     define do
       slice :main, at: "/" do
         root to: "home.show"
+        get '/blog/index', to: "blog.index"
       end
     end
   end
