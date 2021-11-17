@@ -4,6 +4,7 @@ module Main
     module Views
       module Blog
         class Index < View::Base
+          expose :blogs
         end
       end
     end
