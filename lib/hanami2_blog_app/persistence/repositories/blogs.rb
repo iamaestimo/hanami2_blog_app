@@ -1,4 +1,4 @@
-module Sandbox2
+module Hanami2BlogApp
     module Persistence
         module Repositories
             class Blogs < Repository[:blogs]
